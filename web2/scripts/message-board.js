@@ -63,6 +63,8 @@ function getMessageFromForm() {
 }
 
 function postButtonPressed() {
+  let messageToAdd = getMessageFromForm()
+  addMessageToPage(messageToAdd)
 }
 
 //---- server interaction
